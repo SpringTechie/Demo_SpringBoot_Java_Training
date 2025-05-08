@@ -1,0 +1,7 @@
+CRUD = Create Read Update Delete.
+Create SpringBoot and perform CRUD Operation on MySql DB.
+Required Tools and dependencies:
+1.By using spring initializer create spring boot app.
+2.Add web dependency, mysql dependency, Spring data JPA(Java Persistence API) in pom.xml.
+
+

@@ -1,0 +1,20 @@
+What is ORM:
+Object Relational Mapping: It maps a java class variables or fields to database table columns.
+To do this we need 2 annotations:
+@Entity(Mandatory): When we annotate any class with @Entity , spring boot treats this class as database table.
+@Id(Mandatory):  For every table we have one primary key. When we annotate any variable with @Id , then it treats as primary key of the table.
+@Table : Is used to define custom name for table in db.(Optional).
+@Column: Is used to define custom name for a column name in db. (Optional).
+@GeneratedValue : Is used to generate unique id for primary key.
+
+2.Step:
+Create an interface extends the JpaRepository<On which Entity we are working,DataType of primary Key>
+
+3.Step:
+create service class, annotate that class as @Service.
+This service class contains purely business logic.
+
+
+
+
+

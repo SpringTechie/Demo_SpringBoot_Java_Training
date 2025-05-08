@@ -1,0 +1,7 @@
+IOC Container : Inversion of Controller.
+We have two types of IOC Containers.
+1.BeanFactory : It is used small application.
+2.ApplicationContext: It is used to develop big applications.
+
+Bean(Object) :It is same object in java, but its life cycle meaning creating, managing , destroy will taken care by IOC.
+
